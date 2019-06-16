@@ -1,0 +1,68 @@
+[
+    {
+        "caption": "yan1 tool: generate order",
+        "command": "yan1_generate_order",
+        "args": {"symbol": ""}
+    },
+    {
+        "caption": "yan1 tool: generate order with space",
+        "command": "yan1_generate_order",
+        "args": {"symbol": " "}
+    },
+    {
+        "caption": "yan1 tool: generate order with .",
+        "command": "yan1_generate_order",
+        "args": {"symbol": "."}
+    },
+    {
+        "caption": "yan1 tool: generate order with ,",
+        "command": "yan1_generate_order",
+        "args": {"symbol": ","}
+    },
+
+    {
+        "caption": "yan1 tool: find all",
+        "command": "yan1_find_all"
+    },
+
+
+    {
+        "caption": "yan1 tool: base64 remove header",
+        "command": "yan1_base64_photo",
+        "args": {"action" : "remove"}
+    },
+    {
+        "caption": "yan1 tool: base64 append header, ext jpg",
+        "command": "yan1_base64_photo",
+        "args": {"action" : "append", "ext":"jpg"}
+    },
+    {
+        "caption": "yan1 tool: base64 append header, ext png",
+        "command": "yan1_base64_photo",
+        "args": {"action" : "append", "ext":"png"}
+    },
+    {
+        "caption": "yan1 tool: base64 append header, ext bmp",
+        "command": "yan1_base64_photo",
+        "args": {"action" : "append", "ext":"bmp"}
+    },
+    {
+        "caption": "yan1 tool: base64 append header, ext ico",
+        "command": "yan1_base64_photo",
+        "args": {"action" : "append", "ext":"ico"}
+    },
+
+
+    {
+        "caption": "yan1 tool: hide copyright",
+        "command": "yan1_hide_copyright"
+    },
+
+    {
+        "caption": "yan1 tool: sum all selected",
+        "command": "yan1_summary"
+    }
+
+    
+
+]
